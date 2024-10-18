@@ -2,6 +2,7 @@
 const ulTagOfNav = document.getElementById('nav-lists-container');
 const menuBar = document.getElementById('#menuBarr');
 
+// navigation bar 
 document.getElementById('menuBar').addEventListener('click', ()=>{
 
      const styles = [...ulTagOfNav.classList];

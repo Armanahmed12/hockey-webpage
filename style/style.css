@@ -1,11 +1,24 @@
 /* common css */
 
 
-nav{
+nav, section {
 
-     padding: 1rem 1.5rem;
+     padding: 1rem 1rem;
+
 }
 
+/* Banner Section */
+
+#bannerSlidesContainer {
+
+     height: 400px !important;
+}
+
+#bannerSlidesContainer a{
+
+       background-color: black;
+       color: white;
+}
 
 /* nav */
 
@@ -21,4 +34,8 @@ nav{
 
         background-color: #f0cbcb;
     }
+    #bannerSlidesContainer {
+
+     height: 300px;
+}
 }

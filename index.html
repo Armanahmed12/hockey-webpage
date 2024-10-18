@@ -13,6 +13,7 @@
 </head>
 <body>
   
+      <!-- Navigation Bar -->
      <nav class="flex sm:items-center justify-between bg-white">
       <div class="flex items-center gap-2">
           <i id="menuBar" class="fa-solid fa-bars block sm:hidden"></i>
@@ -31,7 +32,39 @@
             <button class="btn text-white btn-error">Get Ticket</button>
         </div>
      </nav>
-     
+
+     <!-- Banner Carousel -->
+     <section class="relative">
+          <div id="bannerSlidesContainer" >
+               <div class="carousel w-full h-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img
+                        src="./Images/1.png"
+                        class="w-full h-full" />
+                      <div class="absolute left-5 right-5 top-[85%]  flex justify-center sm:justify-normal gap-3 -translate-y-1/2 transformn">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img
+                        src="./Images/slide2.jpg"
+                        class="w-full h-full" />
+                      <div class="absolute left-5 right-5 top-[85%] flex justify-center sm:justify-normal gap-3 -translate-y-1/2 transform">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+           <div class="bg-black p-3 text-white rounded-lg w-full sm:w-2/6 ml-auto sm:absolute relative sm:bottom-10 bottom-0 sm:right-10 right-0 mt-5 sm:mt-0">
+                <h2 class="font-bold text-lg mb-3">Meet all the heroes from the field</h2>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+           </div>
+     </section>
+
+
+
      <!-- DaisyUi js cdn -->
      <script src="https://cdn.tailwindcss.com"></script>
      <script src="./js/javascript.js"></script>
