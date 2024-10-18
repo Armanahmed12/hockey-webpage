@@ -1,15 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Css -->
      <link rel="stylesheet" href="style/style.css">
+     <!-- icons -->
+     <script src="https://kit.fontawesome.com/a59611a003.js" crossorigin="anonymous"></script>
+     <!-- Tailwind css and daisyCdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
-      <h2>From Bangladesh</h2>
-
+  
+     <nav class="flex sm:items-center justify-between bg-white">
+      <div class="flex items-center gap-2">
+          <i id="menuBar" class="fa-solid fa-bars block sm:hidden"></i>
+          <h2 class="text-3xl font-bold">Hockey<span class="text-red-500">’</span>s</h2>
+      </div>
+      
+       <ul id="nav-lists-container" class="flex flex-col sm:flex-row gap-0 sm:gap-5 items-center absolute sm:static top-[-600px] left-0 py-0 sm:py-4 bg-slate-200 sm:bg-inherit w-full sm:w-auto transition-['top'] sm:transition-none duration-[2s] -z-10 sm:z-10">
+            <li class="text-red-500 font-bold"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>   
+       </ul>
+        <div>
+            <i class="fa-solid fa-magnifying-glass mr-2 hidden sm:inline-block"></i>
+            <button class="btn text-white btn-error">Get Ticket</button>
+        </div>
+     </nav>
+     
+     <!-- DaisyUi js cdn -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="./js/javascript.js"></script>
 </body>
 </html>
