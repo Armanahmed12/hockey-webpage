@@ -71,6 +71,37 @@ nav, section {
      padding: 0.5rem !important;
 }
 
+/* Contact section */
+
+
+#contactPartContainer > div > div {
+
+        padding: 1rem;
+        border-radius: 0.6rem;
+        text-align: left;
+}
+
+#contactPartContainer > div span{
+
+      font-weight: bold;
+}
+
+form label {
+
+      padding-bottom: 7px;
+      font-weight: 600;
+      display: inline-block;
+      font-size: 1.2rem;
+}
+
+form input, textarea{
+
+     border: 2px solid #2316163c;
+     background-color: #dcdcdc2a;
+     padding: 0.3rem 0.5rem;
+     border-radius: 0.3rem;
+     width: 100%;
+}
 
 /* ========================== jQuary ====================== */
 
