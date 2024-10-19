@@ -1,10 +1,10 @@
 /* common css */
 
-     .radial-progress:before {
-          inset: 0px;
-          background: radial-gradient(farthest-side, currentColor 98%, #0000) top / var(--thickness) var(--thickness) no-repeat, conic-gradient(currentColor calc(var(--value)* 1%), #0000001f 0) !important;
-          mask: radial-gradient(farthest-side, #0000 calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));
-      }
+hr{
+
+     border: 1px dashed #7b7b7b28;
+    
+}
 
 nav, section {
 
@@ -27,12 +27,6 @@ nav, section {
 
 /* Hockey Club section */
 
- hr{
-
-       border: 1px dashed #7b7b7b89;
-      
-}
-
 #hockeyClubSection h2{
 
       font-weight: bold;
@@ -40,6 +34,21 @@ nav, section {
       margin: 1rem 0;
       
 }
+
+/* Our progress on skills */
+.radial-progress:before {
+     inset: 0px;
+     background: radial-gradient(farthest-side, currentColor 98%, #0000) top / var(--thickness) var(--thickness) no-repeat, conic-gradient(currentColor calc(var(--value)* 1%), #0000001f 0) !important;
+     mask: radial-gradient(farthest-side, #0000 calc(99% - var(--thickness)), #000 calc(100% - var(--thickness)));
+ }
+
+ /* newProductsSection */
+ #newProductsSection img{
+
+       height: 100%;
+       width: 30%;
+      
+ }
 
 /* ========================== jQuary ====================== */
 
@@ -60,5 +69,12 @@ nav, section {
     #bannerSlidesContainer {
 
      height: 300px;
-}
+   }
+   /* products section */
+   #newProductsSection img{
+
+     width: 100%;
+     margin-bottom: 1rem;
+    
+  }
 }
