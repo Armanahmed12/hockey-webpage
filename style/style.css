@@ -1,6 +1,6 @@
 /* common css */
 
-hr{
+hr:not(#questionsContainer hr){
 
      border: 1px dashed #7b7b7b28;
     
@@ -49,6 +49,28 @@ nav, section {
        width: 30%;
       
  }
+
+
+/* FQN questions section */
+
+.bg-base-200{
+
+      background-color: white !important;
+}
+
+#questionsContainer hr{
+
+      border: none;
+      width: 98%;
+      margin: auto;
+}
+
+.collapse-title, :where(.collapse > input[type=checkbox]), :where(.collapse > input[type=radio]){
+
+     min-height: 0.1rem !important;
+     padding: 0.5rem !important;
+}
+
 
 /* ========================== jQuary ====================== */
 
